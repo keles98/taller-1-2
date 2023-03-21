@@ -1,0 +1,109 @@
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid #3E2FA4;
+  background-color: #7CD3EE;
+  text-align: center;
+  border-collapse: collapse;
+  position: relative;
+}
+table thead {
+  background: #361FA4;
+  background: linear-gradient(to bottom, #6857bb 0%, #4a35ad 66%, #361FA4 100%);
+  border-bottom: 2px solid #444444;
+}
+table thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #D0E4F5;
+}
+table thead th:first-child {
+  border-left: none;
+}
+table td {
+  border: 2px solid #5C38AA;
+  padding: 3px 3px;
+  font-size: 15px;
+}
+table th {
+  border: 2px solid #5C38AA;
+  padding: 3px 3px;
+}
+table tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table tr:hover td {
+  background: #d0dafd;
+  color: #339;
+}
+
+button {
+  border: none;
+  color: #361FA4;
+  background: transparent;
+  border: 2px solid #361FA4;
+  border-radius: 6px;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+button:hover {
+  background-color: #361FA4;
+  color: white;
+}
+button:hover a {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.search {
+  --background: #ffffff;
+  --text-color: #414856;
+  --primary-color: #361FA4;
+  --border-radius: 10px;
+  --width: 250px;
+  --height: 55px;
+  background: var(--background);
+  width: auto;
+  height: 55px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(65, 72, 86, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search input {
+  position: relative;
+  height: 55px;
+  font: 400 16px "Varela Round", sans-serif;
+  color: #414856;
+  border: 0;
+  box-sizing: border-box;
+  outline: none;
+  padding: 0 20px 0 20px;
+  transition: width 0.6s ease;
+  z-index: 0;
+  opacity: 1;
+  width: 250px;
+}
+
+body {
+  background: #E8EBF3;
+  font: 400 16px "Varela Round", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=estilos.css.map */

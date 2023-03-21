@@ -1,0 +1,33 @@
+.search {
+    --background: #ffffff;
+    --text-color: #414856;
+    --primary-color: #361FA4;
+    --border-radius: 10px;
+    --width: 250px;
+    --height: 55px;
+    background: var(--background);
+    width: auto;
+    height: 55px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(#414856, .05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+        position: relative;
+        height: 55px;
+        font: 400 16px 'Varela Round', sans-serif;
+        color: #414856;
+        border: 0;
+        box-sizing: border-box;
+        outline: none;
+        padding: 0 20px 0 20px;
+        transition: width .6s ease;
+        z-index: 0;
+        opacity: 1;
+        width: 250px;
+    }
+}

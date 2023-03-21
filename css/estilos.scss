@@ -1,0 +1,13 @@
+@import "table";
+@import "botones";
+@import "search";
+
+//--- ## BASIC #############
+body {
+    background: #E8EBF3;
+    font: 400 16px 'Varela Round', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
